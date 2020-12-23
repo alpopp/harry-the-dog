@@ -1,75 +1,36 @@
-.container {
-  max-width: 400px;
-  margin: 0px auto;
-  padding-left: 20px;
-  padding-right: 20px; }
+.container { max-width: 400px; margin: 0px auto; padding-left: 20px; padding-right: 20px; }
 
-body {
-  margin: 0; }
+body { margin: 0; }
 
-h1 {
-  font-family: modesto-text, serif;
-  font-size: 50px; }
+h1 { font-family: modesto-text, serif; font-size: 50px; }
 
-p {
-  font-family: source-code-pro, monospace;
-  font-size: 25px;
-  color: #333; }
+p { font-family: source-code-pro, monospace; font-size: 25px; color: #333; }
 
-a {
-  font-weight: 600;
-  color: #F3A846;
-  text-decoration: none; }
+a { font-weight: 600; color: #F3A846; text-decoration: none; }
 
-img {
-  width: 100%; }
+img { width: 100%; }
 
-.intro {
-  background: #F3A846;
-  padding: 50px 0 150px;
-  text-align: center;
-  color: white;
-  position: relative; }
-  .intro p {
-    margin: 0;
-    color: white; }
-  .intro h1 {
-    margin-top: 10px; }
-  .intro img {
-    max-width: 300px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transform: translateY(50%); }
+.intro { background: #F3A846; padding: 50px 0 150px; text-align: center; color: white; position: relative; }
 
-.main {
-  margin-top: 200px; }
-  .main p {
-    text-align: center; }
+.intro p { margin: 0; color: white; }
 
-.inputText {
-  border: 3px solid #F3A846;
-  border-radius: 10px;
-  min-height: 200px; }
-  .inputText p {
-    text-align: left;
-    margin: 0;
-    padding: 20px;
-    font-family: modesto-text, serif;
-    line-height: 38px; }
+.intro h1 { margin-top: 10px; }
 
-.bottom {
-  padding: 100px 0 25px; }
-  .bottom p {
-    font-size: 15px;
-    text-align: center; }
+.intro img { max-width: 300px; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 0; transform: translateY(50%); }
 
-@media only screen and (max-width: 600px) {
-  p {
-    font-size: 20px; }
+.main { margin-top: 200px; }
 
-  .intro img {
-    width: 80%; } }
+.main p { text-align: center; }
+
+.inputText { border: 3px solid #F3A846; border-radius: 10px; min-height: 200px; }
+
+.inputText p { text-align: left; margin: 0; padding: 20px; font-family: modesto-text, serif; line-height: 38px; }
+
+.bottom { padding: 100px 0 25px; }
+
+.bottom p { font-size: 15px; text-align: center; }
+
+@media only screen and (max-width: 600px) { p { font-size: 20px; }
+  .intro img { width: 80%; } }
+
+/*# sourceMappingURL=style.css.map */
